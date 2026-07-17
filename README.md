@@ -1,33 +1,28 @@
 # cse485-ms-01
-## MiniShop - Phiếu 01: PHP Cơ bản & Catalog
+Phiếu bài tập 1
 
-## Giới thiệu
-Bài tập PHP cơ bản về quản lý danh sách sản phẩm MiniShop.  
-Áp dụng tách dữ liệu và giao diện, xử lý mảng nhiều chiều, hiển thị dữ liệu động bằng PHP.
+# MiniShop - Phiếu 01: PHP Cơ bản & Catalog
 
-## Cấu trúc
+## 📌 Giới thiệu
+Dự án thực hành PHP cơ bản về quản lý danh sách sản phẩm MiniShop.  
+Áp dụng tách dữ liệu và giao diện, xử lý mảng nhiều chiều và hiển thị dữ liệu động.
 
-minishop-01/
-├── data.php
-├── index.php
-└── README.md
+## 📂 Cấu trúc thư mục
+- `data.php`: Chứa dữ liệu categories và products.
+- `index.php`: Xử lý logic và hiển thị bảng HTML.
+- `README.md`: Tài liệu dự án.
 
-
-## Chức năng
-- Tách dữ liệu `categories`, `products` trong `data.php`.
-- Hiển thị danh sách 8 sản phẩm bằng `foreach`.
+## 🚀 Chức năng
+- Tách dữ liệu bằng `require`.
+- Hiển thị đầy đủ 8 sản phẩm bằng `foreach`.
 - Map `category_id` thành tên danh mục.
-- Tính thành tiền (`price * qty`) và tổng giá trị kho.
-- Hiển thị số lượng sản phẩm.
+- Tính thành tiền và tổng giá trị kho: **41380000**.
+- Đếm số sản phẩm: **8**.
 - Sử dụng `htmlspecialchars()` khi xuất dữ liệu.
-- Có comment `MS_EXPECT` phục vụ kiểm tra.
+- Có comment `MS_EXPECT` phục vụ máy chấm.
 
-## Kết quả
-- Số sản phẩm: **8**
-- Tổng giá trị kho: **41380000**
-
-## Chạy project
-1. Đặt thư mục vào `C:\xampp\htdocs\`.
+## ⚙️ Chạy thử
+1. Đặt project vào `C:\xampp\htdocs\`.
 2. Bật Apache trên XAMPP.
 3. Truy cập:
 
